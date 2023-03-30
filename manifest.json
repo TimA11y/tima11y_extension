@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "TimA11y Extension",
   "description": "TimA11y Productivity Extension",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "action": {
     "default_popup": "./popups/popup.html"
   },
@@ -21,10 +21,11 @@
     }
   ],
   "commands": {
-    " _execute_action ": {
+    "_execute_action": {
       "suggested_key": {
         "default": "Ctrl+Shift+S"
-      }
+      },
+      "description": "Run the TimA11y extension on the current page."
     }
   }
 }
